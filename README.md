@@ -68,7 +68,7 @@ define('DB_NAME', 'recipe_manager');     // Database name
 
 ### 4. Test the Application
 
-Visit your website: `http://your-student-server/recipe-manager/index.php`
+Visit the website: `https://mi-linux.wlv.ac.uk/~2528160/recipe-manager/index.php`
 
 ## 🧪 Testing Checklist
 
@@ -94,66 +94,6 @@ Visit your website: `http://your-student-server/recipe-manager/index.php`
 - [ ] Try XSS (e.g., `<script>alert('XSS')</script>`)
 - [ ] Submit forms without CSRF token (should fail)
 
-## 📊 Assessment Rubric Coverage
-
-### Task 1 (30 points - Database)
-- ✅ **MySQL Database Table** (5/5 pts): Proper primary key, suitable data types
-- ✅ **Test Data** (5/5 pts): 5+ sample recipes with varied data
-
-### Task 2 (70 points - Full Site)
-- ✅ **Basic CRUD Operations** (10/10 pts): All 4 operations implemented
-- ✅ **Advanced Security** (10/10 pts): 
-  - Prepared statements (SQL injection protection)
-  - Output escaping (XSS protection)
-  - CSRF tokens
-  - Session security
-  - Input validation
-- ✅ **Security Testing** (10/10 pts): Can demonstrate protection against common attacks
-- ✅ **Multi-criteria Search** (10/10 pts): Search by name, category, and time
-- ✅ **Template Engine** (10/10 pts): Clean separation with reusable functions
-- ✅ **Ajax Functionality** (10/10 pts): Autocomplete search with debouncing
-- ✅ **Version Control** (10/10 pts): Ready for Git commits
-
-## 💡 Demonstration Tips
-
-### What to Highlight to Your Tutor
-
-1. **Security Features**:
-   - Show the prepared statements in code
-   - Demonstrate CSRF token in forms
-   - Show `htmlspecialchars()` usage for XSS protection
-
-2. **Search Functionality**:
-   - Search for "Spaghetti"
-   - Filter by "Italian" category
-   - Set max time to 30 minutes
-   - Combine all three criteria
-
-3. **Ajax Autocomplete**:
-   - Type slowly in the search box
-   - Show real-time suggestions appearing
-   - Explain the debouncing (300ms delay)
-
-4. **CRUD Operations**:
-   - Add a new recipe (show validation)
-   - View the recipe
-   - Edit it
-   - Delete it (show confirmation)
-
-### Technical Questions You Might Be Asked
-
-**Q: How do you prevent SQL injection?**
-A: I use prepared statements with parameter binding. See line X in file.php where I use `$stmt->bind_param()`.
-
-**Q: How do you prevent XSS?**
-A: All output uses `htmlspecialchars()` function (aliased as `h()`). See config.php lines X-Y.
-
-**Q: How does your Ajax work?**
-A: When user types, JavaScript waits 300ms (debouncing), then sends XMLHttpRequest to autocomplete.php which returns JSON suggestions.
-
-**Q: What security features did you implement?**
-A: SQL injection protection (prepared statements), XSS protection (output escaping), CSRF tokens, session security, and input validation.
-
 ## 🔧 Common Issues & Solutions
 
 ### Database Connection Failed
@@ -170,32 +110,6 @@ A: SQL injection protection (prepared statements), XSS protection (output escapi
 - Check CSRF token is being generated
 - Verify session is started
 - Check PHP error logs
-
-## 📝 Git Workflow
-
-```bash
-# Initialize repository
-git init
-
-# Add all files
-git add .
-
-# First commit
-git commit -m "Initial commit: Recipe Manager with CRUD and security"
-
-# Add remote (use your school's Git server)
-git remote add origin YOUR_GIT_URL
-
-# Push to server
-git push -u origin main
-```
-
-### Recommended Commit Messages
-- "Add database schema and sample data"
-- "Implement CRUD operations for recipes"
-- "Add multi-criteria search functionality"
-- "Implement Ajax autocomplete"
-- "Add security features (CSRF, XSS, SQL injection protection)"
 
 ## 🎓 Features Summary
 
@@ -216,17 +130,3 @@ If you encounter issues during setup:
 2. Use browser DevTools Console for JavaScript errors
 3. Verify database connection in phpMyAdmin
 4. Ensure all file permissions are correct (644 for files, 755 for directories)
-
-## ✅ Pre-Demonstration Checklist
-
-- [ ] Website is live on student server
-- [ ] Database is populated with sample data
-- [ ] All CRUD operations work
-- [ ] Search functionality works
-- [ ] Ajax autocomplete works
-- [ ] Git repository shows regular commits
-- [ ] Code is clean and commented
-- [ ] Ready to explain security features
-- [ ] Booked demonstration appointment
-
-Good luck with your demonstration! 🚀
