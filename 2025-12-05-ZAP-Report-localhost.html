@@ -1,0 +1,2892 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZAP by Checkmarx Scanning Report</title>
+<link
+	href="2025-12-05-ZAP-Report-localhost/normalize/normalize.css" rel="stylesheet">
+<link
+	href="2025-12-05-ZAP-Report-localhost/themes/original/main.css" rel="stylesheet">
+<link
+	href="2025-12-05-ZAP-Report-localhost/themes/original/colors.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<h1>ZAP by Checkmarx Scanning Report</h1>
+		<p>
+			<span>Generated with</span> <a href="https://zaproxy.org"><img
+				src="2025-12-05-ZAP-Report-localhost/zap32x32.png" alt="The ZAP logo" class="zap-logo">ZAP</a>
+			<span>on Fri 5 Dec 2025, at 01:31:56</span>
+		</p>
+		<p>ZAP Version: 2.16.1</p>
+		<p>
+			ZAP by <a href="https://checkmarx.com/">Checkmarx</a>
+		</p>
+	</header>
+
+	<main>
+
+		<section id="contents" class="contents">
+			<h2>Contents</h2>
+			<nav>
+				<ol>
+					<li><a
+						href="#about-this-report">About this report</a>
+						<ol>
+							
+							<li><a
+								href="#report-parameters">Report parameters</a></li>
+						</ol></li>
+					<data-th-block>
+					<li><a
+						href="#summaries">Summaries</a>
+						<ol>
+							<li><a
+								href="#risk-confidence-counts">Alert counts by risk and confidence</a></li>
+							<li><a
+								href="#site-risk-counts">Alert counts by site and risk</a></li>
+							<li><a
+								href="#alert-type-counts">Alert counts by alert type</a></li>
+						</ol></li>
+					<li><a
+						href="#alerts">Alerts</a>
+						<ol>
+							
+							 
+							
+							
+							
+							
+							<li><a
+								href="#alerts--risk-2-confidence-3"><span>Risk</span>=<span
+									class="risk-level">Medium</span>, <span>Confidence</span>=<span
+									class="confidence-level">High</span> <span>(1)</span></a></li>
+							
+							<li><a
+								href="#alerts--risk-2-confidence-2"><span>Risk</span>=<span
+									class="risk-level">Medium</span>, <span>Confidence</span>=<span
+									class="confidence-level">Medium</span> <span>(1)</span></a></li>
+							
+							
+							  
+							
+							
+							
+							
+							<li><a
+								href="#alerts--risk-1-confidence-3"><span>Risk</span>=<span
+									class="risk-level">Low</span>, <span>Confidence</span>=<span
+									class="confidence-level">High</span> <span>(1)</span></a></li>
+							
+							<li><a
+								href="#alerts--risk-1-confidence-2"><span>Risk</span>=<span
+									class="risk-level">Low</span>, <span>Confidence</span>=<span
+									class="confidence-level">Medium</span> <span>(3)</span></a></li>
+							
+							
+							  
+							
+							
+							
+							
+							<li><a
+								href="#alerts--risk-0-confidence-3"><span>Risk</span>=<span
+									class="risk-level">Informational</span>, <span>Confidence</span>=<span
+									class="confidence-level">High</span> <span>(1)</span></a></li>
+							
+							<li><a
+								href="#alerts--risk-0-confidence-2"><span>Risk</span>=<span
+									class="risk-level">Informational</span>, <span>Confidence</span>=<span
+									class="confidence-level">Medium</span> <span>(1)</span></a></li>
+							
+							<li><a
+								href="#alerts--risk-0-confidence-1"><span>Risk</span>=<span
+									class="risk-level">Informational</span>, <span>Confidence</span>=<span
+									class="confidence-level">Low</span> <span>(2)</span></a></li>
+							  
+						</ol></li>
+					<li><a
+						href="#appendix">Appendix</a>
+						<ol>
+							<li><a
+								href="#alert-types">Alert types</a></li>
+						</ol></li>
+					</data-th-block>
+				</ol>
+			</nav>
+		</section>
+
+		<section
+			id="about-this-report" class="about-this-report">
+			<h2>About this report</h2>
+
+			
+
+			<section
+				id="report-parameters">
+				<h3>Report parameters</h3>
+				<div class="report-parameters--container">
+					<h4>Contexts</h4>
+					
+					
+					<p>No contexts were selected, so all contexts were included by default.</p>
+					  
+
+					<h4>Sites</h4>
+					
+					<p>The following sites were included:</p>
+					<ul class="sites-list">
+						<li><span class="site">http://localhost:8080</span></li>
+					</ul>
+					
+					<p>(If no sites were selected, all sites were included by default.)</p>
+					<p>An included site must also be within one of the included contexts for its data to be included in the report.</p>
+
+					<h4>Risk levels</h4>
+					<p>
+						<span>Included</span>:
+						 
+						<span class="included-risk-codes"><span class="risk-level">High</span>, <span class="risk-level">Medium</span>, <span class="risk-level">Low</span>, <span class="risk-level">Informational</span></span>
+					</p>
+					<p>
+						<span>Excluded</span>:
+						 <span>None</span>
+						
+					</p>
+
+					<h4>Confidence levels</h4>
+					<p>
+						<span>Included</span>:
+						
+						
+						<span class="included-confidence-codes"><span class="confidence-level">User Confirmed</span>, <span class="confidence-level">High</span>, <span class="confidence-level">Medium</span>, <span class="confidence-level">Low</span></span>
+					</p>
+					<p>
+						<span>Excluded</span>:
+						
+						
+						<span class="included-confidence-codes"> <span class="confidence-level">User Confirmed</span>, <span class="confidence-level">High</span>, <span class="confidence-level">Medium</span>, <span class="confidence-level">Low</span>, <span class="confidence-level">False Positive</span></span>
+					</p>
+				</div>
+			</section>
+		</section>
+
+		
+		<section>
+			
+		</section>
+		
+		<section id="summaries" class="summaries">
+			<h2>Summaries</h2>
+
+			<section
+				id="risk-confidence-counts">
+				<h3>Alert counts by risk and confidence</h3>
+				<table class="risk-confidence-counts-table">
+					<caption>
+						<p>This table shows the number of alerts for each level of risk and confidence included in the report.</p>
+						<p>(The percentages in brackets represent the count as a percentage of the total number of alerts included in the report, rounded to one decimal place.)</p>
+					</caption>
+					<colgroup>
+						<col>
+						<col>
+					</colgroup>
+					<colgroup>
+						<col
+							style="width: 14.0%"><col
+							style="width: 14.0%"><col
+							style="width: 14.0%"><col
+							style="width: 14.0%">
+						<col style="width: 14.0%">
+					</colgroup>
+					<thead>
+						<tr>
+							<td colspan="2" rowspan="2"></td>
+							<th scope="colgroup"
+								colspan="5">Confidence</th>
+						</tr>
+						<tr>
+							<th scope="col">User Confirmed</th>
+							<th scope="col">High</th>
+							<th scope="col">Medium</th>
+							<th scope="col">Low</th>
+							<th scope="col">Total</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="rowgroup"
+								rowspan="5">Risk</th>
+							<th scope="row">High</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0.0%)</span></td>
+						</tr>
+						<tr>
+							
+							<th scope="row">Medium</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(10.0%)</span></td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(10.0%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>2</span><br> <span class="additional-info-percentages">(20.0%)</span></td>
+						</tr>
+						<tr>
+							
+							<th scope="row">Low</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(10.0%)</span></td>
+							<td><span>3</span><br> <span
+								class="additional-info-percentages">(30.0%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>4</span><br> <span class="additional-info-percentages">(40.0%)</span></td>
+						</tr>
+						<tr>
+							
+							<th scope="row">Informational</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(10.0%)</span></td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(10.0%)</span></td>
+							<td><span>2</span><br> <span
+								class="additional-info-percentages">(20.0%)</span></td>
+							<td><span>4</span><br> <span class="additional-info-percentages">(40.0%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row">Total</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>3</span><br> <span
+								class="additional-info-percentages">(30.0%)</span></td>
+							<td><span>5</span><br> <span
+								class="additional-info-percentages">(50.0%)</span></td>
+							<td><span>2</span><br> <span
+								class="additional-info-percentages">(20.0%)</span></td>
+							<td><span>10</span><br> <span
+								class="additional-info-percentages">(100%)</span></td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section
+				id="site-risk-counts">
+				<h3>Alert counts by site and risk</h3>
+				<table class="site-risk-counts-table">
+					<caption>
+						<p>This table shows, for each site for which one or more alerts were raised, the number of alerts raised at each risk level.</p>
+						<p>Alerts with a confidence level of &quot;False Positive&quot; have been excluded from these counts.</p>
+						<p>(The numbers in brackets are the number of alerts raised for the site at or above that risk level.)</p>
+					</caption>
+					<colgroup>
+						<col>
+						<col>
+					</colgroup>
+					<colgroup>
+						<col
+							style="width: 16.25%"><col
+							style="width: 16.25%"><col
+							style="width: 16.25%"><col
+							style="width: 16.25%">
+					</colgroup>
+					<thead>
+						<tr>
+							<td colspan="2" rowspan="2"></td>
+							<th scope="colgroup" colspan="4">Risk</th>
+						</tr>
+						<tr>
+							<th scope="col">
+								<span>High</span><br>  <span
+									class="additional-info-percentages">(= High)</span>  
+							</th>
+							<th scope="col">
+								<span>Medium</span><br>   <span
+									class="additional-info-percentages">(&gt;= Medium)</span> 
+							</th>
+							<th scope="col">
+								<span>Low</span><br>   <span
+									class="additional-info-percentages">(&gt;= Low)</span> 
+							</th>
+							<th scope="col">
+								<span>Informational</span><br>   <span
+									class="additional-info-percentages">(&gt;= Informational)</span> 
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="rowgroup"
+								rowspan="1">Site</th>
+							<th scope="row">http://localhost:8080</th>
+							
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0)</span></td>
+							<td><span>2</span><br> <span
+								class="additional-info-percentages">(2)</span></td>
+							<td><span>4</span><br> <span
+								class="additional-info-percentages">(6)</span></td>
+							<td><span>4</span><br> <span
+								class="additional-info-percentages">(10)</span></td>
+							
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section
+				id="alert-type-counts">
+				<h3>Alert counts by alert type</h3>
+				<table class="alert-type-counts-table">
+					<caption>
+						<p>This table shows the number of alerts of each alert type, together with the alert type&#39;s risk level.</p>
+						<p>(The percentages in brackets represent each count as a percentage, rounded to one decimal place, of the total number of alerts included in this report.)</p>
+					</caption>
+					<thead>
+						<tr>
+							<th scope="col">Alert type</th>
+							<th scope="col">Risk</th>
+							<th scope="col">Count</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-0">Content Security Policy (CSP) Header Not Set</a></th>
+							<td class="risk-level">Medium</td>
+							<td><span>28</span><br> <span
+								class="additional-info-percentages">(280.0%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-1">Missing Anti-clickjacking Header</a></th>
+							<td class="risk-level">Medium</td>
+							<td><span>26</span><br> <span
+								class="additional-info-percentages">(260.0%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-2">Cookie without SameSite Attribute</a></th>
+							<td class="risk-level">Low</td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(10.0%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-3">Server Leaks Information via &quot;X-Powered-By&quot; HTTP Response Header Field(s)</a></th>
+							<td class="risk-level">Low</td>
+							<td><span>41</span><br> <span
+								class="additional-info-percentages">(410.0%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-4">Server Leaks Version Information via &quot;Server&quot; HTTP Response Header Field</a></th>
+							<td class="risk-level">Low</td>
+							<td><span>45</span><br> <span
+								class="additional-info-percentages">(450.0%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-5">X-Content-Type-Options Header Missing</a></th>
+							<td class="risk-level">Low</td>
+							<td><span>28</span><br> <span
+								class="additional-info-percentages">(280.0%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-6">Information Disclosure - Suspicious Comments</a></th>
+							<td class="risk-level">Informational</td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(10.0%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-7">Session Management Response Identified</a></th>
+							<td class="risk-level">Informational</td>
+							<td><span>3</span><br> <span
+								class="additional-info-percentages">(30.0%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-8">User Agent Fuzzer</a></th>
+							<td class="risk-level">Informational</td>
+							<td><span>12</span><br> <span
+								class="additional-info-percentages">(120.0%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-9">User Controllable HTML Element Attribute (Potential XSS)</a></th>
+							<td class="risk-level">Informational</td>
+							<td><span>7</span><br> <span
+								class="additional-info-percentages">(70.0%)</span></td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<th scope="row">Total</th>
+							<td></td>
+							<td>10</td>
+						</tr>
+					</tfoot>
+				</table>
+			</section>
+		</section>
+
+		<section id="alerts" class="alerts">
+			<h2>Alerts</h2>
+			<ol>
+				
+				 
+				 
+				
+				
+				<li id="alerts--risk-2-confidence-3">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Medium</span>, <span>Confidence</span>=<span
+							class="confidence-level">High</span> <span>(1)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://localhost:8080</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-0">Content Security Policy (CSP) Header Not Set</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://localhost:8080/sitemap.xml</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/693.html">CWE-693</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page — covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (240 bytes)</summary>
+				
+				<pre><code>GET http://localhost:8080/sitemap.xml HTTP/1.1
+host: localhost:8080
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (161 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 404 Not Found
+Date: Fri, 05 Dec 2025 00:21:00 GMT
+Server: Apache/2.4.65 (Debian)
+Content-Length: 273
+Content-Type: text/html; charset=iso-8859-1
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (273 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE HTML PUBLIC &quot;-//IETF//DTD HTML 2.0//EN&quot;&gt;
+&lt;html&gt;&lt;head&gt;
+&lt;title&gt;404 Not Found&lt;/title&gt;
+&lt;/head&gt;&lt;body&gt;
+&lt;h1&gt;Not Found&lt;/h1&gt;
+&lt;p&gt;The requested URL was not found on this server.&lt;/p&gt;
+&lt;hr&gt;
+&lt;address&gt;Apache/2.4.65 (Debian) Server at localhost Port 8080&lt;/address&gt;
+&lt;/body&gt;&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Content-Security-Policy header.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				<li id="alerts--risk-2-confidence-2">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Medium</span>, <span>Confidence</span>=<span
+							class="confidence-level">Medium</span> <span>(1)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://localhost:8080</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-1">Missing Anti-clickjacking Header</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://localhost:8080/index.php</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/11-Client-side_Testing/09-Testing_for_Clickjacking">WSTG-v42-CLNT-09</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/1021.html">CWE-1021</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The response does not protect against &#39;ClickJacking&#39; attacks. It should include either Content-Security-Policy with &#39;frame-ancestors&#39; directive or X-Frame-Options.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (238 bytes)</summary>
+				
+				<pre><code>GET http://localhost:8080/index.php HTTP/1.1
+host: localhost:8080
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (384 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Date: Fri, 05 Dec 2025 00:21:00 GMT
+Server: Apache/2.4.65 (Debian)
+X-Powered-By: PHP/8.2.29
+Set-Cookie: PHPSESSID=f466e01c93679fd2c14996cc17883465; path=/; HttpOnly
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+content-length: 10342
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (10342 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Recipe Manager&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon&quot; sizes=&quot;180x180&quot; href=&quot;https://www.fifteenspatulas.com/wp-content/themes/fifteenspatulas2020/favicon/apple-touch-icon.png&quot;&gt;
+    &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;32x32&quot; href=&quot;https://www.fifteenspatulas.com/wp-content/themes/fifteenspatulas2020/favicon/favicon-32x32.png&quot;&gt;
+    &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;16x16&quot; href=&quot;https://www.fifteenspatulas.com/wp-content/themes/fifteenspatulas2020/favicon/favicon-16x16.png&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class=&quot;container&quot;&gt;
+        &lt;header&gt;
+            &lt;h1&gt;🍳 Recipe Manager&lt;/h1&gt;
+            &lt;nav&gt;
+                &lt;a href=&quot;index.php&quot; class=&quot;btn&quot;&gt;Home&lt;/a&gt;
+                &lt;a href=&quot;add.php&quot; class=&quot;btn btn-primary&quot;&gt;Add Recipe&lt;/a&gt;
+            &lt;/nav&gt;
+        &lt;/header&gt;
+
+        &lt;!-- Search Form --&gt;
+        &lt;div class=&quot;search-box&quot;&gt;
+            &lt;h2&gt;Search Recipes&lt;/h2&gt;
+            &lt;form method=&quot;GET&quot; action=&quot;index.php&quot; class=&quot;search-form&quot;&gt;
+                &lt;div class=&quot;form-group&quot;&gt;
+                    &lt;label&gt;Recipe Name:&lt;/label&gt;
+                    &lt;input type=&quot;text&quot; name=&quot;search_name&quot; id=&quot;search_name&quot; 
+                           value=&quot;&quot; 
+                           placeholder=&quot;Start typing...&quot; autocomplete=&quot;off&quot;&gt;
+                    &lt;div id=&quot;autocomplete-results&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;
+                
+                &lt;div class=&quot;form-group&quot;&gt;
+                    &lt;label&gt;Category:&lt;/label&gt;
+                    &lt;select name=&quot;search_category&quot;&gt;
+                        &lt;option value=&quot;&quot;&gt;All Categories&lt;/option&gt;
+                                                    &lt;option value=&quot;Asian&quot; 
+                                &gt;
+                                Asian                            &lt;/option&gt;
+                                                    &lt;option value=&quot;Dessert&quot; 
+                                &gt;
+                                Dessert                            &lt;/option&gt;
+                                                    &lt;option value=&quot;Italian&quot; 
+                                &gt;
+                                Italian                            &lt;/option&gt;
+                                                    &lt;option value=&quot;Mexican&quot; 
+                                &gt;
+                                Mexican                            &lt;/option&gt;
+                                                    &lt;option value=&quot;Salad&quot; 
+                                &gt;
+                                Salad                            &lt;/option&gt;
+                                            &lt;/select&gt;
+                &lt;/div&gt;
+                
+                &lt;div class=&quot;form-group&quot;&gt;
+                    &lt;label&gt;Max Total Time (minutes):&lt;/label&gt;
+                    &lt;input type=&quot;number&quot; name=&quot;search_time&quot; value=&quot;&quot; 
+                           placeholder=&quot;e.g., 30&quot;&gt;
+                &lt;/div&gt;
+                
+                &lt;button type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;Search&lt;/button&gt;
+                &lt;a href=&quot;index.php&quot; class=&quot;btn&quot;&gt;Clear&lt;/a&gt;
+            &lt;/form&gt;
+        &lt;/div&gt;
+
+        &lt;!-- Recipe Grid --&gt;
+        &lt;div class=&quot;recipes-grid&quot;&gt;
+                                                &lt;div class=&quot;recipe-card&quot;&gt;
+                        &lt;div class=&quot;recipe-header&quot;&gt;
+                            &lt;h3&gt;Sushi Rice&lt;/h3&gt;
+                            &lt;span class=&quot;category-badge&quot;&gt;Asian&lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;recipe-info&quot;&gt;
+                            &lt;span&gt;⏱️ Prep: 5m&lt;/span&gt;
+                            &lt;span&gt;🔥 Cook: 30m&lt;/span&gt;
+                            &lt;span&gt;👥 Serves: 10&lt;/span&gt;
+                            &lt;span class=&quot;difficulty-hard&quot;&gt;
+                                Hard                            &lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;recipe-actions&quot;&gt;
+                            &lt;a href=&quot;view.php?id=6&quot; class=&quot;btn btn-small&quot;&gt;View&lt;/a&gt;
+                            &lt;a href=&quot;edit.php?id=6&quot; class=&quot;btn btn-small&quot;&gt;Edit&lt;/a&gt;
+                            &lt;a href=&quot;delete.php?id=6&quot; 
+                               class=&quot;btn btn-small btn-danger&quot; 
+                               onclick=&quot;return confirm(&#39;Are you sure you want to delete this recipe?&#39;)&quot;&gt;Delete&lt;/a&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                                    &lt;div class=&quot;recipe-card&quot;&gt;
+                        &lt;div class=&quot;recipe-header&quot;&gt;
+                            &lt;h3&gt;Spaghetti Carbonara&lt;/h3&gt;
+                            &lt;span class=&quot;category-badge&quot;&gt;Italian&lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;recipe-info&quot;&gt;
+                            &lt;span&gt;⏱️ Prep: 10m&lt;/span&gt;
+                            &lt;span&gt;🔥 Cook: 15m&lt;/span&gt;
+                            &lt;span&gt;👥 Serves: 4&lt;/span&gt;
+                            &lt;span class=&quot;difficulty-easy&quot;&gt;
+                                Easy                            &lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;recipe-actions&quot;&gt;
+                            &lt;a href=&quot;view.php?id=1&quot; class=&quot;btn btn-small&quot;&gt;View&lt;/a&gt;
+                            &lt;a href=&quot;edit.php?id=1&quot; class=&quot;btn btn-small&quot;&gt;Edit&lt;/a&gt;
+                            &lt;a href=&quot;delete.php?id=1&quot; 
+                               class=&quot;btn btn-small btn-danger&quot; 
+                               onclick=&quot;return confirm(&#39;Are you sure you want to delete this recipe?&#39;)&quot;&gt;Delete&lt;/a&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                                    &lt;div class=&quot;recipe-card&quot;&gt;
+                        &lt;div class=&quot;recipe-header&quot;&gt;
+                            &lt;h3&gt;Chicken Stir Fry&lt;/h3&gt;
+                            &lt;span class=&quot;category-badge&quot;&gt;Asian&lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;recipe-info&quot;&gt;
+                            &lt;span&gt;⏱️ Prep: 15m&lt;/span&gt;
+                            &lt;span&gt;🔥 Cook: 10m&lt;/span&gt;
+                            &lt;span&gt;👥 Serves: 4&lt;/span&gt;
+                            &lt;span class=&quot;difficulty-easy&quot;&gt;
+                                Easy                            &lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;recipe-actions&quot;&gt;
+                            &lt;a href=&quot;view.php?id=2&quot; class=&quot;btn btn-small&quot;&gt;View&lt;/a&gt;
+                            &lt;a href=&quot;edit.php?id=2&quot; class=&quot;btn btn-small&quot;&gt;Edit&lt;/a&gt;
+                            &lt;a href=&quot;delete.php?id=2&quot; 
+                               class=&quot;btn btn-small btn-danger&quot; 
+                               onclick=&quot;return confirm(&#39;Are you sure you want to delete this recipe?&#39;)&quot;&gt;Delete&lt;/a&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                                    &lt;div class=&quot;recipe-card&quot;&gt;
+                        &lt;div class=&quot;recipe-header&quot;&gt;
+                            &lt;h3&gt;Chocolate Cake&lt;/h3&gt;
+                            &lt;span class=&quot;category-badge&quot;&gt;Dessert&lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;recipe-info&quot;&gt;
+                            &lt;span&gt;⏱️ Prep: 20m&lt;/span&gt;
+                            &lt;span&gt;🔥 Cook: 45m&lt;/span&gt;
+                            &lt;span&gt;👥 Serves: 8&lt;/span&gt;
+                            &lt;span class=&quot;difficulty-medium&quot;&gt;
+                                Medium                            &lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;recipe-actions&quot;&gt;
+                            &lt;a href=&quot;view.php?id=3&quot; class=&quot;btn btn-small&quot;&gt;View&lt;/a&gt;
+                            &lt;a href=&quot;edit.php?id=3&quot; class=&quot;btn btn-small&quot;&gt;Edit&lt;/a&gt;
+                            &lt;a href=&quot;delete.php?id=3&quot; 
+                               class=&quot;btn btn-small btn-danger&quot; 
+                               onclick=&quot;return confirm(&#39;Are you sure you want to delete this recipe?&#39;)&quot;&gt;Delete&lt;/a&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                                    &lt;div class=&quot;recipe-card&quot;&gt;
+                        &lt;div class=&quot;recipe-header&quot;&gt;
+                            &lt;h3&gt;Greek Salad&lt;/h3&gt;
+                            &lt;span class=&quot;category-badge&quot;&gt;Salad&lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;recipe-info&quot;&gt;
+                            &lt;span&gt;⏱️ Prep: 15m&lt;/span&gt;
+                            &lt;span&gt;🔥 Cook: 0m&lt;/span&gt;
+                            &lt;span&gt;👥 Serves: 4&lt;/span&gt;
+                            &lt;span class=&quot;difficulty-easy&quot;&gt;
+                                Easy                            &lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;recipe-actions&quot;&gt;
+                            &lt;a href=&quot;view.php?id=4&quot; class=&quot;btn btn-small&quot;&gt;View&lt;/a&gt;
+                            &lt;a href=&quot;edit.php?id=4&quot; class=&quot;btn btn-small&quot;&gt;Edit&lt;/a&gt;
+                            &lt;a href=&quot;delete.php?id=4&quot; 
+                               class=&quot;btn btn-small btn-danger&quot; 
+                               onclick=&quot;return confirm(&#39;Are you sure you want to delete this recipe?&#39;)&quot;&gt;Delete&lt;/a&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                                    &lt;div class=&quot;recipe-card&quot;&gt;
+                        &lt;div class=&quot;recipe-header&quot;&gt;
+                            &lt;h3&gt;Beef Tacos&lt;/h3&gt;
+                            &lt;span class=&quot;category-badge&quot;&gt;Mexican&lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;recipe-info&quot;&gt;
+                            &lt;span&gt;⏱️ Prep: 15m&lt;/span&gt;
+                            &lt;span&gt;🔥 Cook: 20m&lt;/span&gt;
+                            &lt;span&gt;👥 Serves: 4&lt;/span&gt;
+                            &lt;span class=&quot;difficulty-easy&quot;&gt;
+                                Easy                            &lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;recipe-actions&quot;&gt;
+                            &lt;a href=&quot;view.php?id=5&quot; class=&quot;btn btn-small&quot;&gt;View&lt;/a&gt;
+                            &lt;a href=&quot;edit.php?id=5&quot; class=&quot;btn btn-small&quot;&gt;Edit&lt;/a&gt;
+                            &lt;a href=&quot;delete.php?id=5&quot; 
+                               class=&quot;btn btn-small btn-danger&quot; 
+                               onclick=&quot;return confirm(&#39;Are you sure you want to delete this recipe?&#39;)&quot;&gt;Delete&lt;/a&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                                    &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;script src=&quot;script.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>x-frame-options</code></pre></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Modern Web browsers support the Content-Security-Policy and X-Frame-Options HTTP headers. Ensure one of them is set on all web pages returned by your site/app.</p>
+
+<p>If you expect the page to be framed only by pages on your server (e.g. it&#39;s part of a FRAMESET) then you&#39;ll want to use SAMEORIGIN, otherwise if you never expect the page to be framed, you should use DENY. Alternatively consider implementing Content Security Policy&#39;s &quot;frame-ancestors&quot; directive.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				
+				  
+				 
+				
+				
+				<li id="alerts--risk-1-confidence-3">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Low</span>, <span>Confidence</span>=<span
+							class="confidence-level">High</span> <span>(1)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://localhost:8080</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-4">Server Leaks Version Information via &quot;Server&quot; HTTP Response Header Field</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://localhost:8080/sitemap.xml</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/01-Information_Gathering/02-Fingerprint_Web_Server">WSTG-v42-INFO-02</a></span> 
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/497.html">CWE-497</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The web/application server is leaking version information via the &quot;Server&quot; HTTP response header. Access to such information may facilitate attackers identifying other vulnerabilities your web/application server is subject to.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (240 bytes)</summary>
+				
+				<pre><code>GET http://localhost:8080/sitemap.xml HTTP/1.1
+host: localhost:8080
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (161 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 404 Not Found
+Date: Fri, 05 Dec 2025 00:21:00 GMT
+Server: Apache/2.4.65 (Debian)
+Content-Length: 273
+Content-Type: text/html; charset=iso-8859-1
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (273 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE HTML PUBLIC &quot;-//IETF//DTD HTML 2.0//EN&quot;&gt;
+&lt;html&gt;&lt;head&gt;
+&lt;title&gt;404 Not Found&lt;/title&gt;
+&lt;/head&gt;&lt;body&gt;
+&lt;h1&gt;Not Found&lt;/h1&gt;
+&lt;p&gt;The requested URL was not found on this server.&lt;/p&gt;
+&lt;hr&gt;
+&lt;address&gt;Apache/2.4.65 (Debian) Server at localhost Port 8080&lt;/address&gt;
+&lt;/body&gt;&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>Apache/2.4.65 (Debian)</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Ensure that your web server, application server, load balancer, etc. is configured to suppress the &quot;Server&quot; header or provide generic details.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				<li id="alerts--risk-1-confidence-2">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Low</span>, <span>Confidence</span>=<span
+							class="confidence-level">Medium</span> <span>(3)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://localhost:8080</span> <span>(3)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-2">Cookie without SameSite Attribute</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://localhost:8080/index.php</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A01_2021-Broken_Access_Control/">OWASP_2021_A01</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A5_2017-Broken_Access_Control.html">OWASP_2017_A05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/06-Session_Management_Testing/02-Testing_for_Cookies_Attributes">WSTG-v42-SESS-02</a></span> 
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/1275.html">CWE-1275</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>A cookie has been set without the SameSite attribute, which means that the cookie can be sent as a result of a &#39;cross-site&#39; request. The SameSite attribute is an effective counter measure to cross-site request forgery, cross-site script inclusion, and timing attacks.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (238 bytes)</summary>
+				
+				<pre><code>GET http://localhost:8080/index.php HTTP/1.1
+host: localhost:8080
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (384 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Date: Fri, 05 Dec 2025 00:21:00 GMT
+Server: Apache/2.4.65 (Debian)
+X-Powered-By: PHP/8.2.29
+Set-Cookie: PHPSESSID=30d3d0766974d9039bab843431baa5e8; path=/; HttpOnly
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Type: text/html; charset=UTF-8
+content-length: 10342
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (10342 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Recipe Manager&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon&quot; sizes=&quot;180x180&quot; href=&quot;https://www.fifteenspatulas.com/wp-content/themes/fifteenspatulas2020/favicon/apple-touch-icon.png&quot;&gt;
+    &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;32x32&quot; href=&quot;https://www.fifteenspatulas.com/wp-content/themes/fifteenspatulas2020/favicon/favicon-32x32.png&quot;&gt;
+    &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;16x16&quot; href=&quot;https://www.fifteenspatulas.com/wp-content/themes/fifteenspatulas2020/favicon/favicon-16x16.png&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class=&quot;container&quot;&gt;
+        &lt;header&gt;
+            &lt;h1&gt;🍳 Recipe Manager&lt;/h1&gt;
+            &lt;nav&gt;
+                &lt;a href=&quot;index.php&quot; class=&quot;btn&quot;&gt;Home&lt;/a&gt;
+                &lt;a href=&quot;add.php&quot; class=&quot;btn btn-primary&quot;&gt;Add Recipe&lt;/a&gt;
+            &lt;/nav&gt;
+        &lt;/header&gt;
+
+        &lt;!-- Search Form --&gt;
+        &lt;div class=&quot;search-box&quot;&gt;
+            &lt;h2&gt;Search Recipes&lt;/h2&gt;
+            &lt;form method=&quot;GET&quot; action=&quot;index.php&quot; class=&quot;search-form&quot;&gt;
+                &lt;div class=&quot;form-group&quot;&gt;
+                    &lt;label&gt;Recipe Name:&lt;/label&gt;
+                    &lt;input type=&quot;text&quot; name=&quot;search_name&quot; id=&quot;search_name&quot; 
+                           value=&quot;&quot; 
+                           placeholder=&quot;Start typing...&quot; autocomplete=&quot;off&quot;&gt;
+                    &lt;div id=&quot;autocomplete-results&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;
+                
+                &lt;div class=&quot;form-group&quot;&gt;
+                    &lt;label&gt;Category:&lt;/label&gt;
+                    &lt;select name=&quot;search_category&quot;&gt;
+                        &lt;option value=&quot;&quot;&gt;All Categories&lt;/option&gt;
+                                                    &lt;option value=&quot;Asian&quot; 
+                                &gt;
+                                Asian                            &lt;/option&gt;
+                                                    &lt;option value=&quot;Dessert&quot; 
+                                &gt;
+                                Dessert                            &lt;/option&gt;
+                                                    &lt;option value=&quot;Italian&quot; 
+                                &gt;
+                                Italian                            &lt;/option&gt;
+                                                    &lt;option value=&quot;Mexican&quot; 
+                                &gt;
+                                Mexican                            &lt;/option&gt;
+                                                    &lt;option value=&quot;Salad&quot; 
+                                &gt;
+                                Salad                            &lt;/option&gt;
+                                            &lt;/select&gt;
+                &lt;/div&gt;
+                
+                &lt;div class=&quot;form-group&quot;&gt;
+                    &lt;label&gt;Max Total Time (minutes):&lt;/label&gt;
+                    &lt;input type=&quot;number&quot; name=&quot;search_time&quot; value=&quot;&quot; 
+                           placeholder=&quot;e.g., 30&quot;&gt;
+                &lt;/div&gt;
+                
+                &lt;button type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;Search&lt;/button&gt;
+                &lt;a href=&quot;index.php&quot; class=&quot;btn&quot;&gt;Clear&lt;/a&gt;
+            &lt;/form&gt;
+        &lt;/div&gt;
+
+        &lt;!-- Recipe Grid --&gt;
+        &lt;div class=&quot;recipes-grid&quot;&gt;
+                                                &lt;div class=&quot;recipe-card&quot;&gt;
+                        &lt;div class=&quot;recipe-header&quot;&gt;
+                            &lt;h3&gt;Sushi Rice&lt;/h3&gt;
+                            &lt;span class=&quot;category-badge&quot;&gt;Asian&lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;recipe-info&quot;&gt;
+                            &lt;span&gt;⏱️ Prep: 5m&lt;/span&gt;
+                            &lt;span&gt;🔥 Cook: 30m&lt;/span&gt;
+                            &lt;span&gt;👥 Serves: 10&lt;/span&gt;
+                            &lt;span class=&quot;difficulty-hard&quot;&gt;
+                                Hard                            &lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;recipe-actions&quot;&gt;
+                            &lt;a href=&quot;view.php?id=6&quot; class=&quot;btn btn-small&quot;&gt;View&lt;/a&gt;
+                            &lt;a href=&quot;edit.php?id=6&quot; class=&quot;btn btn-small&quot;&gt;Edit&lt;/a&gt;
+                            &lt;a href=&quot;delete.php?id=6&quot; 
+                               class=&quot;btn btn-small btn-danger&quot; 
+                               onclick=&quot;return confirm(&#39;Are you sure you want to delete this recipe?&#39;)&quot;&gt;Delete&lt;/a&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                                    &lt;div class=&quot;recipe-card&quot;&gt;
+                        &lt;div class=&quot;recipe-header&quot;&gt;
+                            &lt;h3&gt;Spaghetti Carbonara&lt;/h3&gt;
+                            &lt;span class=&quot;category-badge&quot;&gt;Italian&lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;recipe-info&quot;&gt;
+                            &lt;span&gt;⏱️ Prep: 10m&lt;/span&gt;
+                            &lt;span&gt;🔥 Cook: 15m&lt;/span&gt;
+                            &lt;span&gt;👥 Serves: 4&lt;/span&gt;
+                            &lt;span class=&quot;difficulty-easy&quot;&gt;
+                                Easy                            &lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;recipe-actions&quot;&gt;
+                            &lt;a href=&quot;view.php?id=1&quot; class=&quot;btn btn-small&quot;&gt;View&lt;/a&gt;
+                            &lt;a href=&quot;edit.php?id=1&quot; class=&quot;btn btn-small&quot;&gt;Edit&lt;/a&gt;
+                            &lt;a href=&quot;delete.php?id=1&quot; 
+                               class=&quot;btn btn-small btn-danger&quot; 
+                               onclick=&quot;return confirm(&#39;Are you sure you want to delete this recipe?&#39;)&quot;&gt;Delete&lt;/a&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                                    &lt;div class=&quot;recipe-card&quot;&gt;
+                        &lt;div class=&quot;recipe-header&quot;&gt;
+                            &lt;h3&gt;Chicken Stir Fry&lt;/h3&gt;
+                            &lt;span class=&quot;category-badge&quot;&gt;Asian&lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;recipe-info&quot;&gt;
+                            &lt;span&gt;⏱️ Prep: 15m&lt;/span&gt;
+                            &lt;span&gt;🔥 Cook: 10m&lt;/span&gt;
+                            &lt;span&gt;👥 Serves: 4&lt;/span&gt;
+                            &lt;span class=&quot;difficulty-easy&quot;&gt;
+                                Easy                            &lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;recipe-actions&quot;&gt;
+                            &lt;a href=&quot;view.php?id=2&quot; class=&quot;btn btn-small&quot;&gt;View&lt;/a&gt;
+                            &lt;a href=&quot;edit.php?id=2&quot; class=&quot;btn btn-small&quot;&gt;Edit&lt;/a&gt;
+                            &lt;a href=&quot;delete.php?id=2&quot; 
+                               class=&quot;btn btn-small btn-danger&quot; 
+                               onclick=&quot;return confirm(&#39;Are you sure you want to delete this recipe?&#39;)&quot;&gt;Delete&lt;/a&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                                    &lt;div class=&quot;recipe-card&quot;&gt;
+                        &lt;div class=&quot;recipe-header&quot;&gt;
+                            &lt;h3&gt;Chocolate Cake&lt;/h3&gt;
+                            &lt;span class=&quot;category-badge&quot;&gt;Dessert&lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;recipe-info&quot;&gt;
+                            &lt;span&gt;⏱️ Prep: 20m&lt;/span&gt;
+                            &lt;span&gt;🔥 Cook: 45m&lt;/span&gt;
+                            &lt;span&gt;👥 Serves: 8&lt;/span&gt;
+                            &lt;span class=&quot;difficulty-medium&quot;&gt;
+                                Medium                            &lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;recipe-actions&quot;&gt;
+                            &lt;a href=&quot;view.php?id=3&quot; class=&quot;btn btn-small&quot;&gt;View&lt;/a&gt;
+                            &lt;a href=&quot;edit.php?id=3&quot; class=&quot;btn btn-small&quot;&gt;Edit&lt;/a&gt;
+                            &lt;a href=&quot;delete.php?id=3&quot; 
+                               class=&quot;btn btn-small btn-danger&quot; 
+                               onclick=&quot;return confirm(&#39;Are you sure you want to delete this recipe?&#39;)&quot;&gt;Delete&lt;/a&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                                    &lt;div class=&quot;recipe-card&quot;&gt;
+                        &lt;div class=&quot;recipe-header&quot;&gt;
+                            &lt;h3&gt;Greek Salad&lt;/h3&gt;
+                            &lt;span class=&quot;category-badge&quot;&gt;Salad&lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;recipe-info&quot;&gt;
+                            &lt;span&gt;⏱️ Prep: 15m&lt;/span&gt;
+                            &lt;span&gt;🔥 Cook: 0m&lt;/span&gt;
+                            &lt;span&gt;👥 Serves: 4&lt;/span&gt;
+                            &lt;span class=&quot;difficulty-easy&quot;&gt;
+                                Easy                            &lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;recipe-actions&quot;&gt;
+                            &lt;a href=&quot;view.php?id=4&quot; class=&quot;btn btn-small&quot;&gt;View&lt;/a&gt;
+                            &lt;a href=&quot;edit.php?id=4&quot; class=&quot;btn btn-small&quot;&gt;Edit&lt;/a&gt;
+                            &lt;a href=&quot;delete.php?id=4&quot; 
+                               class=&quot;btn btn-small btn-danger&quot; 
+                               onclick=&quot;return confirm(&#39;Are you sure you want to delete this recipe?&#39;)&quot;&gt;Delete&lt;/a&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                                    &lt;div class=&quot;recipe-card&quot;&gt;
+                        &lt;div class=&quot;recipe-header&quot;&gt;
+                            &lt;h3&gt;Beef Tacos&lt;/h3&gt;
+                            &lt;span class=&quot;category-badge&quot;&gt;Mexican&lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;recipe-info&quot;&gt;
+                            &lt;span&gt;⏱️ Prep: 15m&lt;/span&gt;
+                            &lt;span&gt;🔥 Cook: 20m&lt;/span&gt;
+                            &lt;span&gt;👥 Serves: 4&lt;/span&gt;
+                            &lt;span class=&quot;difficulty-easy&quot;&gt;
+                                Easy                            &lt;/span&gt;
+                        &lt;/div&gt;
+                        &lt;div class=&quot;recipe-actions&quot;&gt;
+                            &lt;a href=&quot;view.php?id=5&quot; class=&quot;btn btn-small&quot;&gt;View&lt;/a&gt;
+                            &lt;a href=&quot;edit.php?id=5&quot; class=&quot;btn btn-small&quot;&gt;Edit&lt;/a&gt;
+                            &lt;a href=&quot;delete.php?id=5&quot; 
+                               class=&quot;btn btn-small btn-danger&quot; 
+                               onclick=&quot;return confirm(&#39;Are you sure you want to delete this recipe?&#39;)&quot;&gt;Delete&lt;/a&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                                    &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;script src=&quot;script.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>PHPSESSID</code></pre></td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>Set-Cookie: PHPSESSID</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Ensure that the SameSite attribute is set to either &#39;lax&#39; or ideally &#39;strict&#39; for all cookies.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-3">Server Leaks Information via &quot;X-Powered-By&quot; HTTP Response Header Field(s)</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://localhost:8080/view.php?id=1</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A01_2021-Broken_Access_Control/">OWASP_2021_A01</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A3_2017-Sensitive_Data_Exposure.html">OWASP_2017_A03</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/01-Information_Gathering/08-Fingerprint_Web_Application_Framework">WSTG-v42-INFO-08</a></span> 
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/497.html">CWE-497</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The web/application server is leaking information via one or more &quot;X-Powered-By&quot; HTTP response headers. Access to such information may facilitate attackers identifying other frameworks/components your web application is reliant upon and the vulnerabilities such components may be subject to.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (336 bytes)</summary>
+				
+				<pre><code>GET http://localhost:8080/view.php?id=1 HTTP/1.1
+host: localhost:8080
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+referer: http://localhost:8080/index.php
+Cookie: PHPSESSID=30d3d0766974d9039bab843431baa5e8
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (309 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Date: Fri, 05 Dec 2025 00:21:00 GMT
+Server: Apache/2.4.65 (Debian)
+X-Powered-By: PHP/8.2.29
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 3157
+Content-Type: text/html; charset=UTF-8
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (3157 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Spaghetti Carbonara - Recipe Manager&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class=&quot;container&quot;&gt;
+        &lt;header&gt;
+            &lt;h1&gt;🍳 Recipe Details&lt;/h1&gt;
+            &lt;nav&gt;
+                &lt;a href=&quot;index.php&quot; class=&quot;btn&quot;&gt;Back to Home&lt;/a&gt;
+                &lt;a href=&quot;edit.php?id=1&quot; class=&quot;btn btn-primary&quot;&gt;Edit&lt;/a&gt;
+                &lt;a href=&quot;delete.php?id=1&quot; class=&quot;btn btn-danger&quot; 
+                   onclick=&quot;return confirm(&#39;Are you sure you want to delete this recipe?&#39;)&quot;&gt;Delete&lt;/a&gt;
+            &lt;/nav&gt;
+        &lt;/header&gt;
+
+        
+        &lt;div class=&quot;recipe-detail&quot;&gt;
+            &lt;div class=&quot;recipe-detail-header&quot;&gt;
+                &lt;h2&gt;Spaghetti Carbonara&lt;/h2&gt;
+                &lt;span class=&quot;category-badge&quot;&gt;Italian&lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&quot;recipe-meta&quot;&gt;
+                &lt;div class=&quot;meta-item&quot;&gt;
+                    &lt;strong&gt;⏱️ Prep Time:&lt;/strong&gt; 10 minutes
+                &lt;/div&gt;
+                &lt;div class=&quot;meta-item&quot;&gt;
+                    &lt;strong&gt;🔥 Cook Time:&lt;/strong&gt; 15 minutes
+                &lt;/div&gt;
+                &lt;div class=&quot;meta-item&quot;&gt;
+                    &lt;strong&gt;⏰ Total Time:&lt;/strong&gt; 25 minutes
+                &lt;/div&gt;
+                &lt;div class=&quot;meta-item&quot;&gt;
+                    &lt;strong&gt;👥 Servings:&lt;/strong&gt; 4                &lt;/div&gt;
+                &lt;div class=&quot;meta-item&quot;&gt;
+                    &lt;strong&gt;📊 Difficulty:&lt;/strong&gt; 
+                    &lt;span class=&quot;difficulty-easy&quot;&gt;
+                        Easy                    &lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&quot;recipe-section&quot;&gt;
+                &lt;h3&gt;🥘 Ingredients&lt;/h3&gt;
+                &lt;div class=&quot;ingredients-list&quot;&gt;
+                    &lt;div class=&#39;ingredient-item&#39;&gt;• 400g spaghetti&lt;/div&gt;&lt;div class=&#39;ingredient-item&#39;&gt;• 200g pancetta&lt;/div&gt;&lt;div class=&#39;ingredient-item&#39;&gt;• 4 eggs&lt;/div&gt;&lt;div class=&#39;ingredient-item&#39;&gt;• 100g parmesan cheese&lt;/div&gt;&lt;div class=&#39;ingredient-item&#39;&gt;• Salt and pepper&lt;/div&gt;                &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&quot;recipe-section&quot;&gt;
+                &lt;h3&gt;📝 Instructions&lt;/h3&gt;
+                &lt;div class=&quot;instructions-list&quot;&gt;
+                    &lt;div class=&#39;instruction-step&#39;&gt;&lt;span class=&#39;step-number&#39;&gt;1&lt;/span&gt;&lt;span class=&#39;step-text&#39;&gt;Cook spaghetti according to package&lt;/span&gt;&lt;/div&gt;&lt;div class=&#39;instruction-step&#39;&gt;&lt;span class=&#39;step-number&#39;&gt;2&lt;/span&gt;&lt;span class=&#39;step-text&#39;&gt;Fry pancetta until crispy&lt;/span&gt;&lt;/div&gt;&lt;div class=&#39;instruction-step&#39;&gt;&lt;span class=&#39;step-number&#39;&gt;3&lt;/span&gt;&lt;span class=&#39;step-text&#39;&gt;Mix eggs and cheese&lt;/span&gt;&lt;/div&gt;&lt;div class=&#39;instruction-step&#39;&gt;&lt;span class=&#39;step-number&#39;&gt;4&lt;/span&gt;&lt;span class=&#39;step-text&#39;&gt;Combine all ingredients&lt;/span&gt;&lt;/div&gt;&lt;div class=&#39;instruction-step&#39;&gt;&lt;span class=&#39;step-number&#39;&gt;5&lt;/span&gt;&lt;span class=&#39;step-text&#39;&gt;Serve hot&lt;/span&gt;&lt;/div&gt;                &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&quot;recipe-footer&quot;&gt;
+                &lt;small&gt;Created: December 4, 2025, 11:01 pm&lt;/small&gt;
+                            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>X-Powered-By: PHP/8.2.29</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Ensure that your web server, application server, load balancer, etc. is configured to suppress &quot;X-Powered-By&quot; headers.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-5">X-Content-Type-Options Header Missing</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://localhost:8080/view.php?id=1</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/693.html">CWE-693</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to &#39;nosniff&#39;. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.</p>
+
+<p>At &quot;High&quot; threshold this scan rule will not alert on client or server error responses.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (336 bytes)</summary>
+				
+				<pre><code>GET http://localhost:8080/view.php?id=1 HTTP/1.1
+host: localhost:8080
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+referer: http://localhost:8080/index.php
+Cookie: PHPSESSID=30d3d0766974d9039bab843431baa5e8
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (309 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Date: Fri, 05 Dec 2025 00:21:00 GMT
+Server: Apache/2.4.65 (Debian)
+X-Powered-By: PHP/8.2.29
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 3157
+Content-Type: text/html; charset=UTF-8
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (3157 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Spaghetti Carbonara - Recipe Manager&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class=&quot;container&quot;&gt;
+        &lt;header&gt;
+            &lt;h1&gt;🍳 Recipe Details&lt;/h1&gt;
+            &lt;nav&gt;
+                &lt;a href=&quot;index.php&quot; class=&quot;btn&quot;&gt;Back to Home&lt;/a&gt;
+                &lt;a href=&quot;edit.php?id=1&quot; class=&quot;btn btn-primary&quot;&gt;Edit&lt;/a&gt;
+                &lt;a href=&quot;delete.php?id=1&quot; class=&quot;btn btn-danger&quot; 
+                   onclick=&quot;return confirm(&#39;Are you sure you want to delete this recipe?&#39;)&quot;&gt;Delete&lt;/a&gt;
+            &lt;/nav&gt;
+        &lt;/header&gt;
+
+        
+        &lt;div class=&quot;recipe-detail&quot;&gt;
+            &lt;div class=&quot;recipe-detail-header&quot;&gt;
+                &lt;h2&gt;Spaghetti Carbonara&lt;/h2&gt;
+                &lt;span class=&quot;category-badge&quot;&gt;Italian&lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&quot;recipe-meta&quot;&gt;
+                &lt;div class=&quot;meta-item&quot;&gt;
+                    &lt;strong&gt;⏱️ Prep Time:&lt;/strong&gt; 10 minutes
+                &lt;/div&gt;
+                &lt;div class=&quot;meta-item&quot;&gt;
+                    &lt;strong&gt;🔥 Cook Time:&lt;/strong&gt; 15 minutes
+                &lt;/div&gt;
+                &lt;div class=&quot;meta-item&quot;&gt;
+                    &lt;strong&gt;⏰ Total Time:&lt;/strong&gt; 25 minutes
+                &lt;/div&gt;
+                &lt;div class=&quot;meta-item&quot;&gt;
+                    &lt;strong&gt;👥 Servings:&lt;/strong&gt; 4                &lt;/div&gt;
+                &lt;div class=&quot;meta-item&quot;&gt;
+                    &lt;strong&gt;📊 Difficulty:&lt;/strong&gt; 
+                    &lt;span class=&quot;difficulty-easy&quot;&gt;
+                        Easy                    &lt;/span&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&quot;recipe-section&quot;&gt;
+                &lt;h3&gt;🥘 Ingredients&lt;/h3&gt;
+                &lt;div class=&quot;ingredients-list&quot;&gt;
+                    &lt;div class=&#39;ingredient-item&#39;&gt;• 400g spaghetti&lt;/div&gt;&lt;div class=&#39;ingredient-item&#39;&gt;• 200g pancetta&lt;/div&gt;&lt;div class=&#39;ingredient-item&#39;&gt;• 4 eggs&lt;/div&gt;&lt;div class=&#39;ingredient-item&#39;&gt;• 100g parmesan cheese&lt;/div&gt;&lt;div class=&#39;ingredient-item&#39;&gt;• Salt and pepper&lt;/div&gt;                &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&quot;recipe-section&quot;&gt;
+                &lt;h3&gt;📝 Instructions&lt;/h3&gt;
+                &lt;div class=&quot;instructions-list&quot;&gt;
+                    &lt;div class=&#39;instruction-step&#39;&gt;&lt;span class=&#39;step-number&#39;&gt;1&lt;/span&gt;&lt;span class=&#39;step-text&#39;&gt;Cook spaghetti according to package&lt;/span&gt;&lt;/div&gt;&lt;div class=&#39;instruction-step&#39;&gt;&lt;span class=&#39;step-number&#39;&gt;2&lt;/span&gt;&lt;span class=&#39;step-text&#39;&gt;Fry pancetta until crispy&lt;/span&gt;&lt;/div&gt;&lt;div class=&#39;instruction-step&#39;&gt;&lt;span class=&#39;step-number&#39;&gt;3&lt;/span&gt;&lt;span class=&#39;step-text&#39;&gt;Mix eggs and cheese&lt;/span&gt;&lt;/div&gt;&lt;div class=&#39;instruction-step&#39;&gt;&lt;span class=&#39;step-number&#39;&gt;4&lt;/span&gt;&lt;span class=&#39;step-text&#39;&gt;Combine all ingredients&lt;/span&gt;&lt;/div&gt;&lt;div class=&#39;instruction-step&#39;&gt;&lt;span class=&#39;step-number&#39;&gt;5&lt;/span&gt;&lt;span class=&#39;step-text&#39;&gt;Serve hot&lt;/span&gt;&lt;/div&gt;                &lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&quot;recipe-footer&quot;&gt;
+                &lt;small&gt;Created: December 4, 2025, 11:01 pm&lt;/small&gt;
+                            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>x-content-type-options</code></pre></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Ensure that the application/web server sets the Content-Type header appropriately, and that it sets the X-Content-Type-Options header to &#39;nosniff&#39; for all web pages.</p>
+
+<p>If possible, ensure that the end user uses a standards-compliant and modern web browser that does not perform MIME-sniffing at all, or that can be directed by the web application/web server to not perform MIME-sniffing.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				
+				  
+				 
+				
+				
+				<li id="alerts--risk-0-confidence-3">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Informational</span>, <span>Confidence</span>=<span
+							class="confidence-level">High</span> <span>(1)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://localhost:8080</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-7">Session Management Response Identified</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://localhost:8080/index.php</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The given response has been identified as containing a session management token. The &#39;Other Info&#39; field contains a set of header tokens that can be used in the Header Based Session Management Method. If the request is in a context which has a Session Management Method set to &quot;Auto-Detect&quot; then this rule will change the session management to use the tokens identified.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>cookie:PHPSESSID</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (336 bytes)</summary>
+				
+				<pre><code>GET http://localhost:8080/edit.php?id=6 HTTP/1.1
+host: localhost:8080
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+referer: http://localhost:8080/index.php
+Cookie: PHPSESSID=30d3d0766974d9039bab843431baa5e8
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (309 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Date: Fri, 05 Dec 2025 00:21:00 GMT
+Server: Apache/2.4.65 (Debian)
+X-Powered-By: PHP/8.2.29
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 4712
+Content-Type: text/html; charset=UTF-8
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (4712 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Edit Recipe - Recipe Manager&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class=&quot;container&quot;&gt;
+        &lt;header&gt;
+            &lt;h1&gt;✏️ Edit Recipe&lt;/h1&gt;
+            &lt;nav&gt;
+                &lt;a href=&quot;view.php?id=6&quot; class=&quot;btn&quot;&gt;Cancel&lt;/a&gt;
+            &lt;/nav&gt;
+        &lt;/header&gt;
+
+        
+        &lt;form method=&quot;POST&quot; class=&quot;recipe-form&quot;&gt;
+            &lt;input type=&quot;hidden&quot; name=&quot;csrf_token&quot; value=&quot;a08ac7b10669b084182f3d34d3df26323a1a7630a8da55510c039e2b35c791fe&quot;&gt;
+            
+            &lt;div class=&quot;form-group&quot;&gt;
+                &lt;label for=&quot;name&quot;&gt;Recipe Name *&lt;/label&gt;
+                &lt;input type=&quot;text&quot; id=&quot;name&quot; name=&quot;name&quot; required 
+                       value=&quot;Sushi Rice&quot;&gt;
+            &lt;/div&gt;
+            
+            &lt;div class=&quot;form-group&quot;&gt;
+                &lt;label for=&quot;category&quot;&gt;Category *&lt;/label&gt;
+                &lt;input type=&quot;text&quot; id=&quot;category&quot; name=&quot;category&quot; required 
+                       value=&quot;Asian&quot;&gt;
+            &lt;/div&gt;
+            
+            &lt;div class=&quot;form-row&quot;&gt;
+                &lt;div class=&quot;form-group&quot;&gt;
+                    &lt;label for=&quot;prep_time&quot;&gt;Prep Time (minutes) *&lt;/label&gt;
+                    &lt;input type=&quot;number&quot; id=&quot;prep_time&quot; name=&quot;prep_time&quot; required min=&quot;0&quot; 
+                           value=&quot;5&quot;&gt;
+                &lt;/div&gt;
+                
+                &lt;div class=&quot;form-group&quot;&gt;
+                    &lt;label for=&quot;cook_time&quot;&gt;Cook Time (minutes) *&lt;/label&gt;
+                    &lt;input type=&quot;number&quot; id=&quot;cook_time&quot; name=&quot;cook_time&quot; required min=&quot;0&quot; 
+                           value=&quot;30&quot;&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            
+            &lt;div class=&quot;form-row&quot;&gt;
+                &lt;div class=&quot;form-group&quot;&gt;
+                    &lt;label for=&quot;servings&quot;&gt;Servings *&lt;/label&gt;
+                    &lt;input type=&quot;number&quot; id=&quot;servings&quot; name=&quot;servings&quot; required min=&quot;1&quot; 
+                           value=&quot;10&quot;&gt;
+                &lt;/div&gt;
+                
+                &lt;div class=&quot;form-group&quot;&gt;
+                    &lt;label for=&quot;difficulty&quot;&gt;Difficulty *&lt;/label&gt;
+                    &lt;select id=&quot;difficulty&quot; name=&quot;difficulty&quot; required&gt;
+                                                &lt;option value=&quot;Easy&quot; &gt;Easy&lt;/option&gt;
+                        &lt;option value=&quot;Medium&quot; &gt;Medium&lt;/option&gt;
+                        &lt;option value=&quot;Hard&quot; selected&gt;Hard&lt;/option&gt;
+                    &lt;/select&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            
+            &lt;div class=&quot;form-group&quot;&gt;
+                &lt;label for=&quot;ingredients&quot;&gt;Ingredients *&lt;/label&gt;
+                &lt;textarea id=&quot;ingredients&quot; name=&quot;ingredients&quot; required rows=&quot;8&quot;&gt;2 cups Japanese short-grain rice (“sushi rice”)
+2 cups water
+4-inch square of kombu (optional)
+1/4 cup unseasoned rice vinegar
+4 teaspoons sugar (or honey)
+1 teaspoon fine sea salt&lt;/textarea&gt;
+            &lt;/div&gt;
+            
+            &lt;div class=&quot;form-group&quot;&gt;
+                &lt;label for=&quot;instructions&quot;&gt;Instructions *&lt;/label&gt;
+                &lt;textarea id=&quot;instructions&quot; name=&quot;instructions&quot; required rows=&quot;10&quot;&gt;1. Rinse the rice. Rinse the rice with cold water in a large fine mesh strainer for 1-2 minutes, or until the water runs very clear.  Drain well.
+2. Cook the rice. See details in the notes below for how to cook the rice either on the stovetop, in a rice cooker, or in the Instant Pot.
+3. Make the sushi vinegar. While the rice is cooking, heat the rice vinegar, sugar and sea salt together in a small saucepan over medium-high heat until the mixture nearly reaches a simmer.  Remove from heat and whisk until the sugar has dissolved.  (Alternately, you can just heat the mixture in the microwave if you prefer.)
+4. Season the rice. Once the rice is cooked, transfer the rice immediately to a large mixing bowl and drizzle it evenly with the sushi vinegar. Use a spatula to very gently fold the rice — more of a slicing and lifting motion, rather than stirring and smooshing — until the vinegar is evenly mixed into the rice.
+5. Cool. Cover the mixing bowl with a damp towel so that it is touching the surface of the rice, which will help prevent the rice from drying out. Let it cool on the counter (or in the refrigerator) until it reaches room temperature.
+Serve. Use the rice immediately in a recipe, or transfer to an airtight food storage container and refrigerate for up to 3 days.&lt;/textarea&gt;
+            &lt;/div&gt;
+            
+            &lt;div class=&quot;form-actions&quot;&gt;
+                &lt;button type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;Update Recipe&lt;/button&gt;
+                &lt;a href=&quot;view.php?id=6&quot; class=&quot;btn&quot;&gt;Cancel&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/form&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>PHPSESSID</code></pre></td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>30d3d0766974d9039bab843431baa5e8</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>This is an informational alert rather than a vulnerability and so there is nothing to fix.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				<li id="alerts--risk-0-confidence-2">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Informational</span>, <span>Confidence</span>=<span
+							class="confidence-level">Medium</span> <span>(1)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://localhost:8080</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-8">User Agent Fuzzer</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://localhost:8080/view.php?id=2</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>Check for differences in response based on fuzzed User Agent (eg. mobile sites, access as a Search Engine Crawler). Compares the response statuscode and the hashcode of the response body with the original response.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (275 bytes)</summary>
+				
+				<pre><code>GET http://localhost:8080/view.php?id=2 HTTP/1.1
+host: localhost:8080
+user-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1)
+pragma: no-cache
+cache-control: no-cache
+referer: http://localhost:8080/index.php
+Cookie: PHPSESSID=30d3d0766974d9039bab843431baa5e8
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (309 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Date: Fri, 05 Dec 2025 00:21:09 GMT
+Server: Apache/2.4.65 (Debian)
+X-Powered-By: PHP/8.2.29
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 2528
+Content-Type: text/html; charset=UTF-8
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (2528 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Recipe Manager&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
+    &lt;link rel=&quot;apple-touch-icon&quot; sizes=&quot;180x180&quot; href=&quot;https://www.fifteenspatulas.com/wp-content/themes/fifteenspatulas2020/favicon/apple-touch-icon.png&quot;&gt;
+    &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;32x32&quot; href=&quot;https://www.fifteenspatulas.com/wp-content/themes/fifteenspatulas2020/favicon/favicon-32x32.png&quot;&gt;
+    &lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;16x16&quot; href=&quot;https://www.fifteenspatulas.com/wp-content/themes/fifteenspatulas2020/favicon/favicon-16x16.png&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class=&quot;container&quot;&gt;
+        &lt;header&gt;
+            &lt;h1&gt;🍳 Recipe Manager&lt;/h1&gt;
+            &lt;nav&gt;
+                &lt;a href=&quot;index.php&quot; class=&quot;btn&quot;&gt;Home&lt;/a&gt;
+                &lt;a href=&quot;add.php&quot; class=&quot;btn btn-primary&quot;&gt;Add Recipe&lt;/a&gt;
+            &lt;/nav&gt;
+        &lt;/header&gt;
+
+        &lt;!-- Search Form --&gt;
+        &lt;div class=&quot;search-box&quot;&gt;
+            &lt;h2&gt;Search Recipes&lt;/h2&gt;
+            &lt;form method=&quot;GET&quot; action=&quot;index.php&quot; class=&quot;search-form&quot;&gt;
+                &lt;div class=&quot;form-group&quot;&gt;
+                    &lt;label&gt;Recipe Name:&lt;/label&gt;
+                    &lt;input type=&quot;text&quot; name=&quot;search_name&quot; id=&quot;search_name&quot; 
+                           value=&quot;&quot; 
+                           placeholder=&quot;Start typing...&quot; autocomplete=&quot;off&quot;&gt;
+                    &lt;div id=&quot;autocomplete-results&quot;&gt;&lt;/div&gt;
+                &lt;/div&gt;
+                
+                &lt;div class=&quot;form-group&quot;&gt;
+                    &lt;label&gt;Category:&lt;/label&gt;
+                    &lt;select name=&quot;search_category&quot;&gt;
+                        &lt;option value=&quot;&quot;&gt;All Categories&lt;/option&gt;
+                                            &lt;/select&gt;
+                &lt;/div&gt;
+                
+                &lt;div class=&quot;form-group&quot;&gt;
+                    &lt;label&gt;Max Total Time (minutes):&lt;/label&gt;
+                    &lt;input type=&quot;number&quot; name=&quot;search_time&quot; value=&quot;&quot; 
+                           placeholder=&quot;e.g., 30&quot;&gt;
+                &lt;/div&gt;
+                
+                &lt;button type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;Search&lt;/button&gt;
+                &lt;a href=&quot;index.php&quot; class=&quot;btn&quot;&gt;Clear&lt;/a&gt;
+            &lt;/form&gt;
+        &lt;/div&gt;
+
+        &lt;!-- Recipe Grid --&gt;
+        &lt;div class=&quot;recipes-grid&quot;&gt;
+                            &lt;p class=&quot;no-results&quot;&gt;No recipes found. &lt;a href=&quot;add.php&quot;&gt;Add your first recipe!&lt;/a&gt;&lt;/p&gt;
+                    &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;script src=&quot;script.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>Header User-Agent</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Attack</th>
+		<td><pre><code>Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1)</code></pre></td>
+	</tr>
+	
+	
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				<li id="alerts--risk-0-confidence-1">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Informational</span>, <span>Confidence</span>=<span
+							class="confidence-level">Low</span> <span>(2)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://localhost:8080</span> <span>(2)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-6">Information Disclosure - Suspicious Comments</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://localhost:8080/script.js</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A01_2021-Broken_Access_Control/">OWASP_2021_A01</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/01-Information_Gathering/05-Review_Webpage_Content_for_Information_Leakage">WSTG-v42-INFO-05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A3_2017-Sensitive_Data_Exposure.html">OWASP_2017_A03</a></span> 
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/615.html">CWE-615</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The response appears to contain suspicious comments which may help an attacker.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>The following pattern was used: \bUSER\b and was detected in likely comment: &quot;// Debounce - wait 300ms after user stops typing&quot;, see evidence field for the suspicious comment/snippet.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (332 bytes)</summary>
+				
+				<pre><code>GET http://localhost:8080/script.js HTTP/1.1
+host: localhost:8080
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+referer: http://localhost:8080/index.php
+Cookie: PHPSESSID=30d3d0766974d9039bab843431baa5e8
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (259 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Date: Fri, 05 Dec 2025 00:21:00 GMT
+Server: Apache/2.4.65 (Debian)
+Last-Modified: Thu, 13 Nov 2025 21:13:55 GMT
+ETag: &quot;c4a-643805bd6d871&quot;
+Accept-Ranges: bytes
+Content-Length: 3146
+Vary: Accept-Encoding
+Content-Type: text/javascript
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (3146 bytes)</summary>
+				
+				<pre><code>// Ajax autocomplete functionality
+document.addEventListener(&#39;DOMContentLoaded&#39;, function() {
+    const searchInput = document.getElementById(&#39;search_name&#39;);
+    const resultsDiv = document.getElementById(&#39;autocomplete-results&#39;);
+    
+    if (!searchInput || !resultsDiv) return;
+    
+    let timeout = null;
+    
+    searchInput.addEventListener(&#39;input&#39;, function() {
+        const term = this.value.trim();
+        
+        // Clear previous timeout
+        clearTimeout(timeout);
+        
+        // Hide results if search term is too short
+        if (term.length &lt; 2) {
+            resultsDiv.innerHTML = &#39;&#39;;
+            resultsDiv.style.display = &#39;none&#39;;
+            return;
+        }
+        
+        // Debounce - wait 300ms after user stops typing
+        timeout = setTimeout(function() {
+            fetchSuggestions(term);
+        }, 300);
+    });
+    
+    function fetchSuggestions(term) {
+        // Make Ajax request
+        const xhr = new XMLHttpRequest();
+        xhr.open(&#39;GET&#39;, &#39;autocomplete.php?term=&#39; + encodeURIComponent(term), true);
+        
+        xhr.onload = function() {
+            if (xhr.status === 200) {
+                try {
+                    const suggestions = JSON.parse(xhr.responseText);
+                    displaySuggestions(suggestions);
+                } catch (e) {
+                    console.error(&#39;Error parsing JSON:&#39;, e);
+                }
+            }
+        };
+        
+        xhr.onerror = function() {
+            console.error(&#39;Request failed&#39;);
+        };
+        
+        xhr.send();
+    }
+    
+    function displaySuggestions(suggestions) {
+        if (suggestions.length === 0) {
+            resultsDiv.innerHTML = &#39;&lt;div class=&quot;autocomplete-item no-results&quot;&gt;No recipes found&lt;/div&gt;&#39;;
+            resultsDiv.style.display = &#39;block&#39;;
+            return;
+        }
+        
+        let html = &#39;&#39;;
+        suggestions.forEach(function(suggestion) {
+            html += &#39;&lt;div class=&quot;autocomplete-item&quot; data-name=&quot;&#39; + escapeHtml(suggestion.name) + &#39;&quot;&gt;&#39;;
+            html += &#39;&lt;strong&gt;&#39; + escapeHtml(suggestion.name) + &#39;&lt;/strong&gt;&#39;;
+            html += &#39;&lt;span class=&quot;autocomplete-category&quot;&gt;&#39; + escapeHtml(suggestion.category) + &#39;&lt;/span&gt;&#39;;
+            html += &#39;&lt;/div&gt;&#39;;
+        });
+        
+        resultsDiv.innerHTML = html;
+        resultsDiv.style.display = &#39;block&#39;;
+        
+        // Add click handlers
+        const items = resultsDiv.querySelectorAll(&#39;.autocomplete-item&#39;);
+        items.forEach(function(item) {
+            item.addEventListener(&#39;click&#39;, function() {
+                const name = this.getAttribute(&#39;data-name&#39;);
+                searchInput.value = name;
+                resultsDiv.style.display = &#39;none&#39;;
+            });
+        });
+    }
+    
+    // Hide results when clicking outside
+    document.addEventListener(&#39;click&#39;, function(e) {
+        if (e.target !== searchInput &amp;&amp; e.target !== resultsDiv) {
+            resultsDiv.style.display = &#39;none&#39;;
+        }
+    });
+    
+    // Escape HTML to prevent XSS
+    function escapeHtml(text) {
+        const div = document.createElement(&#39;div&#39;);
+        div.textContent = text;
+        return div.innerHTML;
+    }
+});</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>user</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-9">User Controllable HTML Element Attribute (Potential XSS)</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">POST http://localhost:8080/add.php</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A1_2017-Injection.html">OWASP_2017_A01</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/Top10/A03_2021-Injection/">OWASP_2021_A03</a></span> 
+				</li>
+				<li>
+					<span><a href="https://cwe.mitre.org/data/definitions/20.html">CWE-20</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>This check looks at user-supplied input in query string parameters and POST data to identify where certain HTML attribute values might be controlled. This provides hot-spot detection for XSS (cross-site scripting) that will require further review by a security analyst to determine exploitability.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:</p>
+
+<p>http://localhost:8080/add.php</p>
+
+<p>appears to include user input in:</p>
+
+<p>a(n) [input] tag [value] attribute</p>
+
+<p>The user input found was:</p>
+
+<p>csrf_token=a08ac7b10669b084182f3d34d3df26323a1a7630a8da55510c039e2b35c791fe</p>
+
+<p>The user-controlled value was:</p>
+
+<p>a08ac7b10669b084182f3d34d3df26323a1a7630a8da55510c039e2b35c791fe</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (399 bytes)</summary>
+				
+				<pre><code>POST http://localhost:8080/add.php HTTP/1.1
+host: localhost:8080
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+pragma: no-cache
+cache-control: no-cache
+content-type: application/x-www-form-urlencoded
+referer: http://localhost:8080/add.php
+content-length: 177
+Cookie: PHPSESSID=30d3d0766974d9039bab843431baa5e8
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (177 bytes)</summary>
+				
+				<pre><code>csrf_token=a08ac7b10669b084182f3d34d3df26323a1a7630a8da55510c039e2b35c791fe&amp;name=ZAP&amp;category=ZAP&amp;prep_time=0&amp;cook_time=0&amp;servings=1&amp;difficulty=Medium&amp;ingredients=&amp;instructions=</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (309 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+Date: Fri, 05 Dec 2025 00:21:00 GMT
+Server: Apache/2.4.65 (Debian)
+X-Powered-By: PHP/8.2.29
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Length: 3818
+Content-Type: text/html; charset=UTF-8
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (3818 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Add Recipe - Recipe Manager&lt;/title&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class=&quot;container&quot;&gt;
+        &lt;header&gt;
+            &lt;h1&gt;🍳 Add New Recipe&lt;/h1&gt;
+            &lt;nav&gt;
+                &lt;a href=&quot;index.php&quot; class=&quot;btn&quot;&gt;Back to Home&lt;/a&gt;
+            &lt;/nav&gt;
+        &lt;/header&gt;
+
+                    &lt;div class=&quot;alert alert-error&quot;&gt;
+                &lt;ul&gt;
+                                            &lt;li&gt;Ingredients are required.&lt;/li&gt;
+                                            &lt;li&gt;Instructions are required.&lt;/li&gt;
+                                    &lt;/ul&gt;
+            &lt;/div&gt;
+        
+        &lt;form method=&quot;POST&quot; action=&quot;add.php&quot; class=&quot;recipe-form&quot;&gt;
+            &lt;input type=&quot;hidden&quot; name=&quot;csrf_token&quot; value=&quot;a08ac7b10669b084182f3d34d3df26323a1a7630a8da55510c039e2b35c791fe&quot;&gt;
+            
+            &lt;div class=&quot;form-group&quot;&gt;
+                &lt;label for=&quot;name&quot;&gt;Recipe Name *&lt;/label&gt;
+                &lt;input type=&quot;text&quot; id=&quot;name&quot; name=&quot;name&quot; required 
+                       value=&quot;ZAP&quot;&gt;
+            &lt;/div&gt;
+            
+            &lt;div class=&quot;form-group&quot;&gt;
+                &lt;label for=&quot;category&quot;&gt;Category *&lt;/label&gt;
+                &lt;input type=&quot;text&quot; id=&quot;category&quot; name=&quot;category&quot; required 
+                       placeholder=&quot;e.g., Italian, Asian, Dessert&quot;
+                       value=&quot;ZAP&quot;&gt;
+            &lt;/div&gt;
+            
+            &lt;div class=&quot;form-row&quot;&gt;
+                &lt;div class=&quot;form-group&quot;&gt;
+                    &lt;label for=&quot;prep_time&quot;&gt;Prep Time (minutes) *&lt;/label&gt;
+                    &lt;input type=&quot;number&quot; id=&quot;prep_time&quot; name=&quot;prep_time&quot; required min=&quot;0&quot; 
+                           value=&quot;0&quot;&gt;
+                &lt;/div&gt;
+                
+                &lt;div class=&quot;form-group&quot;&gt;
+                    &lt;label for=&quot;cook_time&quot;&gt;Cook Time (minutes) *&lt;/label&gt;
+                    &lt;input type=&quot;number&quot; id=&quot;cook_time&quot; name=&quot;cook_time&quot; required min=&quot;0&quot; 
+                           value=&quot;0&quot;&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            
+            &lt;div class=&quot;form-row&quot;&gt;
+                &lt;div class=&quot;form-group&quot;&gt;
+                    &lt;label for=&quot;servings&quot;&gt;Servings *&lt;/label&gt;
+                    &lt;input type=&quot;number&quot; id=&quot;servings&quot; name=&quot;servings&quot; required min=&quot;1&quot; 
+                           value=&quot;1&quot;&gt;
+                &lt;/div&gt;
+                
+                &lt;div class=&quot;form-group&quot;&gt;
+                    &lt;label for=&quot;difficulty&quot;&gt;Difficulty *&lt;/label&gt;
+                    &lt;select id=&quot;difficulty&quot; name=&quot;difficulty&quot; required&gt;
+                        &lt;option value=&quot;Easy&quot; &gt;Easy&lt;/option&gt;
+                        &lt;option value=&quot;Medium&quot; selected&gt;Medium&lt;/option&gt;
+                        &lt;option value=&quot;Hard&quot; &gt;Hard&lt;/option&gt;
+                    &lt;/select&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            
+            &lt;div class=&quot;form-group&quot;&gt;
+                &lt;label for=&quot;ingredients&quot;&gt;Ingredients * (one per line)&lt;/label&gt;
+                &lt;textarea id=&quot;ingredients&quot; name=&quot;ingredients&quot; required rows=&quot;8&quot; 
+                          placeholder=&quot;e.g.,&amp;#10;200g flour&amp;#10;2 eggs&amp;#10;100ml milk&quot;&gt;&lt;/textarea&gt;
+            &lt;/div&gt;
+            
+            &lt;div class=&quot;form-group&quot;&gt;
+                &lt;label for=&quot;instructions&quot;&gt;Instructions * (one step per line)&lt;/label&gt;
+                &lt;textarea id=&quot;instructions&quot; name=&quot;instructions&quot; required rows=&quot;10&quot; 
+                          placeholder=&quot;e.g.,&amp;#10;1. Preheat oven to 180°C&amp;#10;2. Mix all ingredients&amp;#10;3. Bake for 30 minutes&quot;&gt;&lt;/textarea&gt;
+            &lt;/div&gt;
+            
+            &lt;div class=&quot;form-actions&quot;&gt;
+                &lt;button type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;Add Recipe&lt;/button&gt;
+                &lt;a href=&quot;index.php&quot; class=&quot;btn&quot;&gt;Cancel&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/form&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>csrf_token</code></pre></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Validate all input and sanitize output it before writing to any HTML attributes.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				  
+			</ol>
+		</section>
+
+		<section id="appendix" class="appendix">
+			<h2>Appendix</h2>
+
+			<section id="alert-types" class="alert-types">
+				<h3>Alert types</h3>
+				<p class="alert-types-intro">This section contains additional information on the types of alerts in the report.</p>
+				<ol>
+					<li
+						id="alert-type-0">
+						<h4>Content Security Policy (CSP) Header Not Set</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10038/">Content Security Policy (CSP) Header Not Set</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/693.html">693</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy">https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy</a></li>
+										<li><a
+											href="https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html">https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</a></li>
+										<li><a
+											href="https://www.w3.org/TR/CSP/">https://www.w3.org/TR/CSP/</a></li>
+										<li><a
+											href="https://w3c.github.io/webappsec-csp/">https://w3c.github.io/webappsec-csp/</a></li>
+										<li><a
+											href="https://web.dev/articles/csp">https://web.dev/articles/csp</a></li>
+										<li><a
+											href="https://caniuse.com/#feat=contentsecuritypolicy">https://caniuse.com/#feat=contentsecuritypolicy</a></li>
+										<li><a
+											href="https://content-security-policy.com/">https://content-security-policy.com/</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-1">
+						<h4>Missing Anti-clickjacking Header</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10020/">Anti-clickjacking Header</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/1021.html">1021</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-2">
+						<h4>Cookie without SameSite Attribute</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10054/">Cookie without SameSite Attribute</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/1275.html">1275</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>13</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://tools.ietf.org/html/draft-ietf-httpbis-cookie-same-site">https://tools.ietf.org/html/draft-ietf-httpbis-cookie-same-site</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-3">
+						<h4>Server Leaks Information via &quot;X-Powered-By&quot; HTTP Response Header Field(s)</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10037/">Server Leaks Information via &quot;X-Powered-By&quot; HTTP Response Header Field(s)</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/497.html">497</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>13</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/01-Information_Gathering/08-Fingerprint_Web_Application_Framework">https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/01-Information_Gathering/08-Fingerprint_Web_Application_Framework</a></li>
+										<li><a
+											href="https://www.troyhunt.com/2012/02/shhh-dont-let-your-response-headers.html">https://www.troyhunt.com/2012/02/shhh-dont-let-your-response-headers.html</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-4">
+						<h4>Server Leaks Version Information via &quot;Server&quot; HTTP Response Header Field</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10036/">HTTP Server Response Header</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/497.html">497</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>13</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://httpd.apache.org/docs/current/mod/core.html#servertokens">https://httpd.apache.org/docs/current/mod/core.html#servertokens</a></li>
+										<li><a
+											href="https://learn.microsoft.com/en-us/previous-versions/msp-n-p/ff648552(v=pandp.10)">https://learn.microsoft.com/en-us/previous-versions/msp-n-p/ff648552(v=pandp.10)</a></li>
+										<li><a
+											href="https://www.troyhunt.com/shhh-dont-let-your-response-headers/">https://www.troyhunt.com/shhh-dont-let-your-response-headers/</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-5">
+						<h4>X-Content-Type-Options Header Missing</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10021/">X-Content-Type-Options Header Missing</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/693.html">693</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)">https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</a></li>
+										<li><a
+											href="https://owasp.org/www-community/Security_Headers">https://owasp.org/www-community/Security_Headers</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-6">
+						<h4>Information Disclosure - Suspicious Comments</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10027/">Information Disclosure - Suspicious Comments</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/615.html">615</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>13</td>
+							</tr>
+							
+						</table>
+					</li>
+					<li
+						id="alert-type-7">
+						<h4>Session Management Response Identified</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10112/">Session Management Response Identified</a>)
+									</span>   
+								</td>
+							</tr>
+							
+							
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id">https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-8">
+						<h4>User Agent Fuzzer</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by an active scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10104/">User Agent Fuzzer</a>)
+									</span>   
+								</td>
+							</tr>
+							
+							
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://owasp.org/wstg">https://owasp.org/wstg</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-9">
+						<h4>User Controllable HTML Element Attribute (Potential XSS)</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10031/">User Controllable HTML Element Attribute (Potential XSS)</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/20.html">20</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>20</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html">https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+				</ol>
+			</section>
+		</section>
+		 
+	</main>
+</body>
+</html>
+
+
+
